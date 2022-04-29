@@ -67,7 +67,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+li a:hover, li a:focus, li a:active {
     color: #F0F0F0;
     border-bottom: .8rem solid #F0F0F0;
     transition: ease-out .25s; 
